@@ -1,0 +1,403 @@
+.address{
+
+  float:right;  
+}
+
+.address img{
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+}
+.address h1{
+ text-decoration-color: blue;
+}
+.address2 img{
+  width:450px;
+  height:300px;
+}
+
+
+/* start nav */
+nav{
+  margin-left: 10%;
+}
+nav ul{
+  text-align: center;
+  border-radius: 20px;
+  direction: rtl;
+  background:#495563;
+  width: 80%;
+}
+nav>ul>li{
+  
+  list-style:none;
+  display:inline-block;
+  padding:15px;
+}
+nav ul a{
+  color:#333;
+  text-decoration: none;
+  font-weight:bolder;
+  font-size:25px;
+  color: #fff;
+  
+}
+nav ul :hover{
+  
+  background:#543F3F;
+  color:#ddd;
+}
+
+
+
+
+/**88888888888888888888888888888888888888888888888888*/
+
+
+  
+	
+ .articl	 {
+  width:29%;
+  height:450px;
+  border:3px solid #ddd;
+  float:left;
+  margin: 1%;
+  text-align:center;
+  box-shadow:7px 10px 10px;
+  padding:1px;
+  position: relative;
+}
+
+.articl img{
+  
+  width:90%;
+   border-radius:10px 0px 10px 0;
+     transition: 1s; 
+}
+
+.articl img:hover{
+  opacity:.9;
+   transform: scale(1.2); 
+     
+}
+.articl p{
+  
+  text-align:right;
+  font-weight:bold;
+  margin: 10px;
+}
+
+.articl button{
+  
+  background:none;
+  border:none;
+  background:#333;
+  color:#fff;
+  padding:10px 15px;
+  font-weight:bold;
+  position:absolute;
+  bottom:20px;
+}
+.articl button:hover{
+  background:#fff;
+   color:#333; 
+  color:#333;
+  border:1px solid #333;
+  cursor:pointer;
+} 
+
+/* ===============================================================
+------------------------------------------------------------------
+============================================================== */
+
+
+	
+.articl2	 {
+  width:29%;
+  height:500px;
+  border:3px solid #ddd;
+  float:left;
+  margin: 1%;
+  text-align:center;
+  box-shadow:7px 10px 10px;
+  padding:1px;
+  position: relative;
+}
+
+.articl2 img{
+  
+  width:90%;
+   border-radius:10px 0px 10px 0;
+    transition: 1s;
+}
+
+.articl2 img:hover{
+  opacity:.9;
+  transform: scale(1.2);
+     
+}
+.articl2 p{
+  
+  text-align:right;
+  font-weight:bold;
+  margin: 10px;
+}
+
+.articl2 button{
+  
+   background:none; 
+  border:none;
+  background:#333;
+  color:#fff;
+  padding:10px 15px;
+  font-weight:bold; 
+  position: absolute;
+  bottom: 20px;
+}
+.articl2 button:hover{
+  background:#fff;
+  color:#333;
+  color:#333;
+  border:1px solid #333;
+  cursor:pointer;
+}
+
+
+
+/*======================================== start cover--------------*/
+.cover{
+    
+  background: url('../imges/public/232.jpg');
+  height:500px;
+  background-size :cover;
+position:relative;
+margin-top: 10px;
+border-radius: 120px;
+
+}
+
+
+.overlay{
+  position:absolute;
+  background:rgba(142, 146, 143, 0.6);
+  width:100%;
+  height:500px;
+  text-align:center;
+  
+}
+
+.overlay h1{
+  color:#fff;
+  font-size:50px;
+  margin-top: 150px 
+  
+}
+
+.overlay button{
+  transition: 1s all ease-in-out;
+  background:#fff;
+  border:none;
+  color: #333;
+  padding: 20px 35px;
+  font-size:20px;
+  font-weight: bold;
+}
+.overlay button:hover{
+  background:#333;
+  color: #fff;
+ cursor:pointer;
+}
+/*======================================== end cover--------------*/
+
+
+
+
+
+
+   /*========================================================*/
+      /* css  الخاصة  بصفحة حول الموقع  وتنسيقاتها   */
+      /* بداية التنسيق  الصفحة  */
+      .pregrafes2{
+        width: 800px;
+        border-width: 20px;
+      background-color: rgb(234, 232, 241);
+         border-radius:50px;
+         margin: auto;
+      
+      
+      } .pregrafes2 p{
+        padding: 20px;
+        direction:rtl ;
+        font-size:20px;
+        text-align: right;
+      }
+   #pregrafes {
+     background-color: rgb(234, 232, 241);
+     width: 700px;
+     height: 200px;
+     border-radius:50px;
+
+     margin: auto;
+   }#pregrafes  h4{
+     direction: rtl;
+     font-size:30px;
+     text-align:center;
+     padding: auto;
+     font-style: italic;
+   }
+   /*  نهاية التنسيق الصفحة حول الموقع  */
+   
+.clr{   
+    
+  clear:both;
+}
+
+
+
+/* تنسقات صفحة  التسجل   بدايتها  */
+
+.record {
+
+   width:  1000px ;
+   height: 400px ;
+   background-color: rgb(236, 243, 241);
+   border-radius: 1px;
+   margin: auto;
+  
+}
+
+  
+
+
+
+ .formal{
+ padding-top: 20;
+  position:absolute;
+  direction: rtl;
+  font-size:20px;
+  width:90%;
+  height:500px;
+  text-align:center;
+}
+
+
+ form input{
+    width: 300px ;
+    height: 30px ;  
+     border-radius: 12px;  
+
+ }
+
+
+/* 
+     تنسيقات صفحة التواصل
+} */
+.forma{
+  width:   600px ;
+   height: 400px ;
+    background-color: rgb(236, 239, 241) ;
+     margin: auto;
+     direction: rtl;
+     padding: 20px;
+     border-radius: 20px;
+     margin-top: 40px;}
+.content {
+  width:  550px;
+height:  400px ;
+background-color rgb(237, 245, 242);
+ font-size: 15px ;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+margin: auto;
+margin-top: 110px;
+}
+.content2 {
+width:  100%;
+height: 400px;
+background-color: rgb(237, 245, 242);
+
+}
+.content3 {
+width:  100%;
+height: 500px;
+background-color: rgb(237, 245, 242);
+
+}
+
+
+.content img {
+width:  200px ;
+height:300px;
+display:inline;
+margin: 20px;
+margin-top:  30px;
+box-shadow:7px 5px 30px;
+border-radius: 10px;
+align-items: center;
+
+}
+
+
+#content input{ 
+ padding: auto;
+
+}
+
+textarea {
+   width:  500px;
+   height:  200px;
+border-radius: 20px;
+border-color: gray;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* ----------stary foter--------- */
+
+
+footer{
+  background:#5e5a58;
+  text-align: center;
+  padding:40px;
+  border-radius: 20px;
+  margin-top:30px;
+  
+}
+footer span{
+  color: #333;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer ul li{
+  list-style: none;  
+  display:inline-block;
+  margin:5px;
+  
+}
+footer ul li img{
+  width:50px;
+  height: 50px;
+  
+
+  
+}
+footer ul li img:hover{
+  transition:0.5;
+  transform: rotate(360deg)scale(1.5);
+}
+/* End Footer */
+
+  
+
